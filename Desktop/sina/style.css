@@ -18,8 +18,39 @@ div {
     padding-bottom: 200px;
 }
 div:hover {
-    background: linear-gradient(
-      rgba(171, 179, 192, 0.796),
-      rgba(220, 234, 248, 0.792)
-    );
-  }
+  background: linear-gradient(
+    rgba(171, 179, 192, 0.796),
+    rgba(220, 234, 248, 0.792));
+}
+
+.esm-barname {
+  text-align: center;
+  padding-top: 15px;
+  font-size: x-large;
+  color: azure;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+  
+.esm-ahang {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: x-large;
+  color: azure;
+  text-shadow: 2px 2px 5px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.esm {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin-top: auto;
+  font-size: larger;
+  text-shadow: 1px 1px 5px;
+  color: #666666;
+}
+.esm:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  color: #2e2e2e;
+}
