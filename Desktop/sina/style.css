@@ -18,6 +18,28 @@ div {
     padding-bottom: 200px;
 }
 div:hover {
+
+    background: linear-gradient(
+      rgba(171, 179, 192, 0.796),
+      rgba(220, 234, 248, 0.792)
+    );
+  }
+
+img {
+    align-self: center;
+    height: 190px;
+    width: 190px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-left: 40px;
+}
+
+img:hover {
+    box-shadow: 1px 1px 5px black;
+    transition: 0.2s;
+
   background: linear-gradient(
     rgba(171, 179, 192, 0.796),
     rgba(220, 234, 248, 0.792));
